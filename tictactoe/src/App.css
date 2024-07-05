@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+.primary-color{
+  background-color: #4B495F;
+}
+body{
+  background-color: #31303c;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.game-heading{
+  padding: .5em 1em;
+  color: white;
+  border-radius: 5px;
+}
+.square-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.move-detection{
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.left-move ,.right-move{
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 4px;
+  width: 60px;
+  height: 20px;
+  color: white;
+  text-align: center;
+ 
+}
+.left-move{
+  background-color: #da58d1;
+}
+.right-move{
+  background-color: #4B495F;
+}
+
