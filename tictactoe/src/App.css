@@ -3,16 +3,57 @@
   background-color: #4B495F;
 }
 body{
-  background-color: #31303c;
+  background-color: #0a0b0c;
+ 
   font-family: "Happy Monkey", system-ui;
   font-weight: 400;
   font-style: normal;
+
+}
+.won-game{
+  color: white;
+  font-size: large;
+  text-align: center;
 }
 .main-div{
   display: flex;
   align-items: center;
   justify-content: center;
 
+
+  
+}
+.play-online{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   color: white;
+   background-color: #da58d1;
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+}
+.opponents{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: yellow;
+
+}
+.play-online>h1{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+ 
   
 }
 .game-heading{
@@ -31,19 +72,26 @@ body{
   justify-content: space-between;
 }
 .left-move ,.right-move{
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 4px;
-  width: 60px;
-  height: 20px;
-  color: white;
+  height: 30px;
+  width: 120px;
+  border-bottom-left-radius: 50px;
+  background-color: #4b495f;
+  border-top-right-radius: 50px;
+  padding-top: 7px;
+  font-size: 18px;
+  padding-bottom: 5px;
   text-align: center;
  
 }
-.left-move{
-  background-color: #da58d1;
+/* .left-move{
+  background-color: #DD7F9F;
 }
 .right-move{
-  background-color: #4B495F;
+  background-color: #3FA7F0;
+} */
+.current-move-cross{
+  background-color: #3FA7F0 !important ;
 }
-
+.current-move-circle{
+  background-color: #DD7F9F !important;
+}

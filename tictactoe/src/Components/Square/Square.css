@@ -4,3 +4,12 @@
     border: 2px solid rgb(247, 241, 241);
     border-radius: 10px;
 }
+.not-allowed{
+    cursor: not-allowed;
+}
+.circle-won{
+    background-color: #DD7F9F;
+}
+.cross-won{
+    background-color: rgb(63,67,240);
+}
